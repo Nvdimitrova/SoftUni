@@ -7,7 +7,7 @@ public class AnimalType {
         Scanner scanner = new Scanner(System.in);
         String animal = scanner.nextLine();
 
-        String type;
+        String type = "";
 
         switch (animal) {
             case "dog":
